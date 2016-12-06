@@ -11,14 +11,14 @@ Gem::Specification.new do |s|
   s.email = ['joncalhoun@gmail.com']
   s.version = Checkr::VERSION
 
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.2.2'
 
   s.add_dependency('rest-client', '>= 1.4', '< 3.0')
-  s.add_dependency('json', '~> 1.8.1')
+  s.add_dependency('json', '~> 2.0.0')
 
   s.add_development_dependency('mocha', '~> 0.13.2')
   s.add_development_dependency('shoulda', '~> 3.4.0')
-  s.add_development_dependency('activesupport', '~> 4.2.6')
+  s.add_development_dependency('activesupport', '~> 5.0.0')
   s.add_development_dependency('bump', '0.5.2')
   s.add_development_dependency('rake', '10.4.2')
   s.add_development_dependency('test-unit')
